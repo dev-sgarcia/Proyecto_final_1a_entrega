@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="css/estilos.css">    
+    <title>AG-Travel</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="img/logo.png" alt="logo" width="210">
+        </div>
+        <nav>          
+            <ul class="horizontal">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="empresa.html">EMPRESA</a></li>
+                <li><a href="unidades.html">UNIDADES</a></li>
+                <li><a href="clientes.html">CLIENTES</a></li>
+                <li><a class="active" href="contacto.html">CONTÁCTO</a></li>
+            </ul>
+            <br><br>          
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <img class="img_cabecera" src="https://picsum.photos/1366/217?random=1" alt="cabecera" width=100% height="300">           
+        </section>
+    </main>  
+
+    <br><br>
+
+    <section class="grupo_contacto">
+        <div class="row_mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15045.78222993746!2d-99.1394155!3d19.4794574!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa377bd25353cb78!2sCentral%20de%20Autobuses%20del%20Norte!5e0!3m2!1ses-419!2smx!4v1642916200587!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            
+        </div>
+        <div class="row_mensaje">
+            <div>
+                <label for="nombre"> Nombre Completo </label>
+                <input id ="nombre" name="nombre" type="text" placeholder="Ingrese Nombre y Apellido..." minlength="3" maxlength="50" required autofocus autocomplete="off">    
+            </div>
+            <div>
+                <label for="mail">Mail</label>
+                <input id="mail" name="mail" type="email" placeholder="tucuenta@mail.com" required>
+             </div>
+             <div>
+                <legend>Indique un Comentario</legend>
+                <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese un Comentario"></textarea>
+                <br>
+                <button>Enviar</button>                
+             </div>
+            <div>
+
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div>
+            <h4>MAPA DEL SITIO</h4>
+            <div>
+                <a class="afooter" href="index.html">Inicio</a>
+            </div>
+
+            <div>
+                <a class="afooter" href="empresa.html">Empresa</a>
+            </div>
+
+            <div>
+                <a class="afooter" href="unidades.html">Unidades</a>
+            </div>
+
+            <div>
+                <a class="afooter" href="clientes.html">Clientes</a>
+            </div>
+
+            <div>
+                <a class="afooter" href="contacto.html">Contácto</a>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <div class="redes_sociales">
+            <div>
+                <input id="correo" type="text" placeholder="Recibe noticias y promociones">
+                <button>Registra correo</button>
+            </div>
+            <div class="logo_rds">
+                <a href="#">
+                    <img src="img/fb.png" alt="Facebook" width="24" height="24">
+                </a>
+                <a href="#"><img src="img/tw.png" alt="Twitter" width="24" height="24">
+                </a>
+            </div>
+            <div class="copyright">
+                <p>© 2022 Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
